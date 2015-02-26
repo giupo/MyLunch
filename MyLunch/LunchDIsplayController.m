@@ -48,7 +48,7 @@
     for(NSUInteger i = 0; i< _imagesInfo.count; ++i) {
         UIImageView* iv = [imageArray objectAtIndex:i];
         NSDictionary* info = [_imagesInfo objectAtIndex:i];
-        iv.image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
+        iv.image = [info objectForKey:UIImagePickerControllerOriginalImage];
     }
 }
 
