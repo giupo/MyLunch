@@ -52,4 +52,8 @@
     }
 }
 
+- (void) viewDidLayoutSubviews {
+    [self.descrizione sizeToFit];
+}
+
 @end
