@@ -17,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"Hello!");
     self.lunchDescription.placeholder = @"Add more infos here...";
     self.lunchDescription.placeholderTextColor = [UIColor lightGrayColor];
 }
@@ -51,7 +50,6 @@
     }
     
     LunchDisplayController* display = [self.storyboard instantiateViewControllerWithIdentifier:displayID];
-    NSLog(@"%@ %@", self.lunchDescription.text, self.lunchDescription.text);
     display.testoDescrizione = self.lunchDescription.text;
     display.imagesInfo = info;
     display.title = self.lunchName.text;
