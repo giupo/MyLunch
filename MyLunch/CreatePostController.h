@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import <ELCImagePickerController.h>
-
+#import <SZTextView.h>
 @interface CreatePostController : UIViewController<ELCImagePickerControllerDelegate ,UINavigationControllerDelegate>
 
 
 @property (strong, nonatomic) NSArray* images;
 
 @property (strong, nonatomic) IBOutlet UITextField *lunchName;
-@property (strong, nonatomic) IBOutlet UITextView *lunchDescription;
+@property (strong, nonatomic) IBOutlet SZTextView *lunchDescription;
 @property (strong, nonatomic) ELCImagePickerController *elcPicker;
 -(IBAction) pushAddPhotosController;
 @end

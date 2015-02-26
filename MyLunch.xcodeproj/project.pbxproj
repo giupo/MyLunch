@@ -15,6 +15,7 @@
 		30CF7CE61A9F31BA00F8D5BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30CF7CE41A9F31BA00F8D5BA /* LaunchScreen.xib */; };
 		30CF7CF21A9F31BB00F8D5BA /* MyLunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF7CF11A9F31BB00F8D5BA /* MyLunchTests.m */; };
 		30CF7D001A9F508600F8D5BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CF7CFF1A9F508600F8D5BA /* Main.storyboard */; };
+		30CF7D021A9F832D00F8D5BA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 30CF7D011A9F832D00F8D5BA /* Podfile */; };
 		F299C284C73BA01A62F71F7C /* libPods-MyLunch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E03978395F17E61E77E9373 /* libPods-MyLunch.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		30CF7CF01A9F31BB00F8D5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30CF7CF11A9F31BB00F8D5BA /* MyLunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLunchTests.m; sourceTree = "<group>"; };
 		30CF7CFF1A9F508600F8D5BA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		30CF7D011A9F832D00F8D5BA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		5E03978395F17E61E77E9373 /* libPods-MyLunch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyLunch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAE3B2B11935E68F77CB67C /* Pods-MyLunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLunch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyLunch/Pods-MyLunch.debug.xcconfig"; sourceTree = "<group>"; };
 		8C0544CA2E4315C9EE2AA36B /* Pods-MyLunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLunch.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyLunch/Pods-MyLunch.release.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		30CF7CC61A9F31BA00F8D5BA = {
 			isa = PBXGroup;
 			children = (
+				30CF7D011A9F832D00F8D5BA /* Podfile */,
 				30CF7CD11A9F31BA00F8D5BA /* MyLunch */,
 				30CF7CEE1A9F31BB00F8D5BA /* MyLunchTests */,
 				30CF7CD01A9F31BA00F8D5BA /* Products */,
@@ -232,6 +235,7 @@
 			files = (
 				30CF7D001A9F508600F8D5BA /* Main.storyboard in Resources */,
 				30CF7CE61A9F31BA00F8D5BA /* LaunchScreen.xib in Resources */,
+				30CF7D021A9F832D00F8D5BA /* Podfile in Resources */,
 				30CF7CE31A9F31BA00F8D5BA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

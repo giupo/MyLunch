@@ -3,6 +3,7 @@
 
 target 'MyLunch' do
   pod 'ELCImagePickerController'
+  pod 'SZTextView'
 end
 
 target 'MyLunchTests' do

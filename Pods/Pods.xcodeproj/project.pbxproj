@@ -1,1363 +1,698 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0963CAA526E0F5898219CD02</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreLocation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>0ABC533DE010DA3E80E05233</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38D4E244410DAB310CC309F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0E620F18B935FEB32B829B7A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1C1FA9223A6AA0310704D74E</string>
-				<string>ABFF61B4EC6AE6375C3C6C52</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>10F2699E585B34268B7EAE93</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>15CC30C5ECBDE9FBA58FC3B2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4FAD5703BD9B63434B04EB08</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>189E53F78892A25BD33B0113</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F13D96C5095608CBC25EC9AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A863336CD2BD9D5141363BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-MyLunch-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C1FA9223A6AA0310704D74E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8E66B299936EFB16DCFCDE57</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2299F02C90EB5E861248DAD6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ELCAsset.h</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/ELCAsset.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>234C10E246E731F0B189BCFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Overlay.png</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/Resources/Overlay.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>28134F2374264856A0AD50A4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-MyLunch-ELCImagePickerController.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>295AFAD69ADBF54ECCC56EA3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8D69412363CBD3A734706371</string>
-				<string>1A863336CD2BD9D5141363BA</string>
-				<string>9A13C2EBC71A4A4B5A513EA5</string>
-				<string>9FB7CB405B56C95CA07DE0E8</string>
-				<string>C07807BABCA4CF418DE401A2</string>
-				<string>8E66B299936EFB16DCFCDE57</string>
-				<string>9DAD11B3B78FB7BAB794582B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-MyLunch</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-MyLunch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B8CCC8D25A8754930A8741C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3F859874C542BA6A365789D3</string>
-				<string>307E8D221F74461BAE1398E2</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2BF4CCDE6B945E0E585AE6BB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>39E0C4536E70B28E3AE9DD97</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D915E1B2076A7F9249EC97A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>41EB0D5152463708DFB6F00F</string>
-				<string>807375F5B80F63D0F5ED9498</string>
-				<string>76B93451612A3DF3CBC3E07E</string>
-				<string>D072D32611D9522ED9AC26DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-MyLunch-ELCImagePickerController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F30BA723D41C865A953B8E4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AFD5386F141AFF03B093DD9E</string>
-				<string>BCFF370602AB7014397437B7</string>
-				<string>30CCE79E52B7194DD94D6CC5</string>
-				<string>7920C878712C17950C8527DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2FE57AD32C9358CCBAC97E3A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>DE25800BFDA9FB366C5EA664</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>CAC86B7565185BF9343FD1D9</string>
-			<key>remoteInfo</key>
-			<string>Pods-MyLunch-ELCImagePickerController</string>
-		</dict>
-		<key>307E8D221F74461BAE1398E2</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>30CCE79E52B7194DD94D6CC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4FAD5703BD9B63434B04EB08</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>35392D42D7328BCAFCBDCB10</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>807375F5B80F63D0F5ED9498</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-MyLunch-ELCImagePickerController/Pods-MyLunch-ELCImagePickerController-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>381AFF7092BCEDA0C3DDDBE0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>76B93451612A3DF3CBC3E07E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38D4E244410DAB310CC309F4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ELCImagePickerController.m</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/ELCImagePickerController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>39E0C4536E70B28E3AE9DD97</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ELCAlbumPickerController.m</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/ELCAlbumPickerController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F859874C542BA6A365789D3</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>40D6774576CA29FCE319C162</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Overlay@2x.png</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/Resources/Overlay@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>40DF65852E67D769EF0FA9A7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>614BB1AA76922381A92C6D41</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>41EB0D5152463708DFB6F00F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MyLunch-ELCImagePickerController.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>42EB1D48F749EBFC663B2902</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2299F02C90EB5E861248DAD6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>43D9125AF4B45EB80ADCBC44</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9ADD29D1D69FF14C8B058FE7</string>
-				<string>39E0C4536E70B28E3AE9DD97</string>
-				<string>2299F02C90EB5E861248DAD6</string>
-				<string>8A37F7AD2CE6F29B943E740F</string>
-				<string>589302F1D34FE77CF323B032</string>
-				<string>BB0D649291DCEE679A1F2E90</string>
-				<string>DEA19008C06C7DD45F09E398</string>
-				<string>E9BD996E3E3127A82F90FB99</string>
-				<string>614BB1AA76922381A92C6D41</string>
-				<string>F408D93BEE21EF3740B65C1E</string>
-				<string>F6CBAD6C3062D61D26D1D1DD</string>
-				<string>38D4E244410DAB310CC309F4</string>
-				<string>8C6CD9381969C2B7169B5A26</string>
-				<string>2D915E1B2076A7F9249EC97A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ELCImagePickerController</string>
-			<key>path</key>
-			<string>ELCImagePickerController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4F7A09FB3CF1CBF3FDDD5098</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8C21BE07B831431D00F6CAEC</string>
-				<string>42EB1D48F749EBFC663B2902</string>
-				<string>B11D12DDD3B75E90FE81BF8D</string>
-				<string>930F7CBCC9D3BBEDFD0542D9</string>
-				<string>CB2118519D96A869D1AA9A79</string>
-				<string>40DF65852E67D769EF0FA9A7</string>
-				<string>F840341EB1DC9CBFDF7A7228</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4FAD5703BD9B63434B04EB08</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>54037AA4254729177D1AB85D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FCC0CBB7E1125E99645DE550</string>
-				<string>28134F2374264856A0AD50A4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54E4A341AD1A542103165D69</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5C9A9935481B78818EEF1814</string>
-				<string>189E53F78892A25BD33B0113</string>
-				<string>F752ECCF127AFA8E69EA7315</string>
-				<string>54037AA4254729177D1AB85D</string>
-				<string>701D376A4BA9602C6CE0F28E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56F1CD01A56C908DA6905FE4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5B78BE080D2477958C24589E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>589302F1D34FE77CF323B032</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ELCAssetCell.h</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/ELCAssetCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>58DC27D421F707304742F4D8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AssetsLibrary.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>5B78BE080D2477958C24589E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9A13C2EBC71A4A4B5A513EA5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5C9A9935481B78818EEF1814</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>614BB1AA76922381A92C6D41</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ELCAssetTablePicker.h</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/ELCAssetTablePicker.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>69FA5A5A5ABAB212D4221D2B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8A37F7AD2CE6F29B943E740F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>701D376A4BA9602C6CE0F28E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>295AFAD69ADBF54ECCC56EA3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>71F4EDE114868DCF7BC734E8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BB0D649291DCEE679A1F2E90</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>721733DF6273679AD1D7E577</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F408D93BEE21EF3740B65C1E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>76B93451612A3DF3CBC3E07E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-MyLunch-ELCImagePickerController-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7920C878712C17950C8527DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10F2699E585B34268B7EAE93</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>807375F5B80F63D0F5ED9498</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MyLunch-ELCImagePickerController-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8145CD32A8D6605DD4381287</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>807375F5B80F63D0F5ED9498</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-MyLunch-ELCImagePickerController/Pods-MyLunch-ELCImagePickerController-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8A37F7AD2CE6F29B943E740F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ELCAsset.m</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/ELCAsset.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C21BE07B831431D00F6CAEC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9ADD29D1D69FF14C8B058FE7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C6CD9381969C2B7169B5A26</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CD0B0A3A60EF0B2869A54489</string>
-				<string>C61591D1C5B29C9F4828840E</string>
-				<string>D0B9B62DDC152F3AD6AC155D</string>
-				<string>234C10E246E731F0B189BCFA</string>
-				<string>40D6774576CA29FCE319C162</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D69412363CBD3A734706371</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-MyLunch-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E66B299936EFB16DCFCDE57</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MyLunch.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>930F7CBCC9D3BBEDFD0542D9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DEA19008C06C7DD45F09E398</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9A13C2EBC71A4A4B5A513EA5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-MyLunch-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9ADD29D1D69FF14C8B058FE7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ELCAlbumPickerController.h</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/ELCAlbumPickerController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DAD11B3B78FB7BAB794582B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MyLunch.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9FB7CB405B56C95CA07DE0E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-MyLunch-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ABFF61B4EC6AE6375C3C6C52</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9DAD11B3B78FB7BAB794582B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>AFD5386F141AFF03B093DD9E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>58DC27D421F707304742F4D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B05E79ADB546E08BE9540F80</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-MyLunch-ELCImagePickerController</string>
-			<key>target</key>
-			<string>CAC86B7565185BF9343FD1D9</string>
-			<key>targetProxy</key>
-			<string>2FE57AD32C9358CCBAC97E3A</string>
-		</dict>
-		<key>B11D12DDD3B75E90FE81BF8D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>589302F1D34FE77CF323B032</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BB0D649291DCEE679A1F2E90</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ELCAssetCell.m</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/ELCAssetCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCFF370602AB7014397437B7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0963CAA526E0F5898219CD02</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C07807BABCA4CF418DE401A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MyLunch-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C61591D1C5B29C9F4828840E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>ELCAssetPicker.xib</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/Resources/ELCAssetPicker.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CAC86B7565185BF9343FD1D9</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EDD9D2E55D41286CC7BBA37D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FB4A8BD47D49B745F8DE2F0D</string>
-				<string>2F30BA723D41C865A953B8E4</string>
-				<string>4F7A09FB3CF1CBF3FDDD5098</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MyLunch-ELCImagePickerController</string>
-			<key>productName</key>
-			<string>Pods-MyLunch-ELCImagePickerController</string>
-			<key>productReference</key>
-			<string>28134F2374264856A0AD50A4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>CB2118519D96A869D1AA9A79</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BD996E3E3127A82F90FB99</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CD0B0A3A60EF0B2869A54489</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>ELCAlbumPickerController.xib</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/Resources/ELCAlbumPickerController.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE8FEF81C3914F99F5734BB8</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0E620F18B935FEB32B829B7A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>56F1CD01A56C908DA6905FE4</string>
-				<string>F4D15158D52A3E1B2D72B1B8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>B05E79ADB546E08BE9540F80</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MyLunch</string>
-			<key>productName</key>
-			<string>Pods-MyLunch</string>
-			<key>productReference</key>
-			<string>FCC0CBB7E1125E99645DE550</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>D072D32611D9522ED9AC26DB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-MyLunch-ELCImagePickerController-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D0B9B62DDC152F3AD6AC155D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>ELCAssetTablePicker.xib</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/Resources/ELCAssetTablePicker.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE25800BFDA9FB366C5EA664</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2B8CCC8D25A8754930A8741C</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>54E4A341AD1A542103165D69</string>
-			<key>productRefGroup</key>
-			<string>54037AA4254729177D1AB85D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>CE8FEF81C3914F99F5734BB8</string>
-				<string>CAC86B7565185BF9343FD1D9</string>
-			</array>
-		</dict>
-		<key>DEA19008C06C7DD45F09E398</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ELCAssetPickerFilterDelegate.h</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/ELCAssetPickerFilterDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BD996E3E3127A82F90FB99</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ELCAssetSelectionDelegate.h</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/ELCAssetSelectionDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDD9D2E55D41286CC7BBA37D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>35392D42D7328BCAFCBDCB10</string>
-				<string>8145CD32A8D6605DD4381287</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>F13D96C5095608CBC25EC9AA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>58DC27D421F707304742F4D8</string>
-				<string>0963CAA526E0F5898219CD02</string>
-				<string>4FAD5703BD9B63434B04EB08</string>
-				<string>10F2699E585B34268B7EAE93</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F408D93BEE21EF3740B65C1E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ELCAssetTablePicker.m</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/ELCAssetTablePicker.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F4D15158D52A3E1B2D72B1B8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>15CC30C5ECBDE9FBA58FC3B2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F6CBAD6C3062D61D26D1D1DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ELCImagePickerController.h</string>
-			<key>path</key>
-			<string>Classes/ELCImagePicker/ELCImagePickerController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F752ECCF127AFA8E69EA7315</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>43D9125AF4B45EB80ADCBC44</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F840341EB1DC9CBFDF7A7228</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F6CBAD6C3062D61D26D1D1DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FB4A8BD47D49B745F8DE2F0D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2BF4CCDE6B945E0E585AE6BB</string>
-				<string>69FA5A5A5ABAB212D4221D2B</string>
-				<string>71F4EDE114868DCF7BC734E8</string>
-				<string>721733DF6273679AD1D7E577</string>
-				<string>0ABC533DE010DA3E80E05233</string>
-				<string>381AFF7092BCEDA0C3DDDBE0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FCC0CBB7E1125E99645DE550</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-MyLunch.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>DE25800BFDA9FB366C5EA664</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0327C62D8B1B5339A23B75AE /* ELCAlbumPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = E00EEA68D2C61800BAEE66F8 /* ELCAlbumPickerController.h */; };
+		04A34085D0908A5304FF2A64 /* SZTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A73A94CCA3F165587754E9 /* SZTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0E98124BE155EC699E1E93F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57DEB59CCDE3F98A340C5EA /* Foundation.framework */; };
+		12C218455274C050F382AC39 /* SZTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = DCFF29A93BE94831AF74F97B /* SZTextView.h */; };
+		25436BBB35FBAD1124494267 /* Pods-MyLunch-ELCImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96218722833790712B5524FD /* Pods-MyLunch-ELCImagePickerController-dummy.m */; };
+		34B63693F8250DE6176AD04B /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0373DEC5596B5D2C112193B0 /* ELCAssetCell.m */; };
+		3DDC64E837812544D30C9EEA /* ELCAssetSelectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD6FA396266A06590BCA682 /* ELCAssetSelectionDelegate.h */; };
+		5480FF67AF13C802C10F00C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19973A6632B553D7C83D0FF2 /* UIKit.framework */; };
+		5E1FAF016CE341F99324FC85 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473010B335FD587C985A2805 /* AssetsLibrary.framework */; };
+		601C9679C33D342AABCD0D3A /* ELCAssetPickerFilterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6BBBD1BFFA6A9D004B17A5 /* ELCAssetPickerFilterDelegate.h */; };
+		643A082B678401B249B8C27F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57DEB59CCDE3F98A340C5EA /* Foundation.framework */; };
+		699EBA6C8C6FB0E5F6FD50E7 /* ELCAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C14DAE3C39BFEF28EEA83ED /* ELCAssetCell.h */; };
+		721A625E4607BC02CA726AE3 /* ELCAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = A3ACC1D46AA0015B6C87D48E /* ELCAsset.h */; };
+		736D5538C46CA00FFF939999 /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EEE831297C7A4E37175964 /* ELCAsset.m */; };
+		8133842BA7F4A638BC68AD57 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091DF1EF6A318959F7E77260 /* CoreLocation.framework */; };
+		84DD3A19AE42B2D62A6849E5 /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B98BBBD2166692FD919643B /* ELCImagePickerController.m */; };
+		9E08CDE79FBBDFE1A3322ADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57DEB59CCDE3F98A340C5EA /* Foundation.framework */; };
+		AF3083DFC4A1AFACAB41705C /* Pods-MyLunch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EB078CFCBC65C8C2D8158A /* Pods-MyLunch-dummy.m */; };
+		BD189F2990B690328A58582D /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C6BFB3C853CB2456859A40 /* ELCAlbumPickerController.m */; };
+		BF65CD035FC7EE529B5025E8 /* ELCAssetTablePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E0A75BADF0B8A1A3334E03 /* ELCAssetTablePicker.h */; };
+		E00AC1C178350A0B14F8F673 /* Pods-MyLunch-SZTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA62F21CC10940AAE38C4DD /* Pods-MyLunch-SZTextView-dummy.m */; };
+		E810653433C99C16132B9B57 /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5D4E57439CD0A70E77B6B /* ELCAssetTablePicker.m */; };
+		EC2033932F0C434AE81C40A1 /* ELCImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A517C74E1528CAD21DB6DCB /* ELCImagePickerController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62BF18F0CF5884E2054027A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4A83EE5F206E42EE19B9EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3295A195A78F216E5364B101;
+			remoteInfo = "Pods-MyLunch-SZTextView";
+		};
+		9ACE3A817928BFC1260C135D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4A83EE5F206E42EE19B9EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C405344B3F1BAF366A3C069;
+			remoteInfo = "Pods-MyLunch-ELCImagePickerController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E0A75BADF0B8A1A3334E03 /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCAssetTablePicker.h; path = Classes/ELCImagePicker/ELCAssetTablePicker.h; sourceTree = "<group>"; };
+		0373DEC5596B5D2C112193B0 /* ELCAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELCAssetCell.m; path = Classes/ELCImagePicker/ELCAssetCell.m; sourceTree = "<group>"; };
+		091DF1EF6A318959F7E77260 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		16D7EDFAD452F09CB4FB932E /* Pods-MyLunch-ELCImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyLunch-ELCImagePickerController-prefix.pch"; sourceTree = "<group>"; };
+		19973A6632B553D7C83D0FF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		19B8FD98268F312958472F8A /* Pods-MyLunch-ELCImagePickerController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLunch-ELCImagePickerController-Private.xcconfig"; sourceTree = "<group>"; };
+		19EB078CFCBC65C8C2D8158A /* Pods-MyLunch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyLunch-dummy.m"; sourceTree = "<group>"; };
+		3C14DAE3C39BFEF28EEA83ED /* ELCAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCAssetCell.h; path = Classes/ELCImagePicker/ELCAssetCell.h; sourceTree = "<group>"; };
+		3E687688792D3527669305BF /* Overlay.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Overlay.png; path = Classes/ELCImagePicker/Resources/Overlay.png; sourceTree = "<group>"; };
+		405815C602958D548284AA63 /* ELCAssetTablePicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ELCAssetTablePicker.xib; path = Classes/ELCImagePicker/Resources/ELCAssetTablePicker.xib; sourceTree = "<group>"; };
+		473010B335FD587C985A2805 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		4E64CC84099CA41EE32E9B86 /* libPods-MyLunch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyLunch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB9318756FA3BE11511012B /* Pods-MyLunch-SZTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLunch-SZTextView.xcconfig"; sourceTree = "<group>"; };
+		5AA62F21CC10940AAE38C4DD /* Pods-MyLunch-SZTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyLunch-SZTextView-dummy.m"; sourceTree = "<group>"; };
+		5AD6FA396266A06590BCA682 /* ELCAssetSelectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCAssetSelectionDelegate.h; path = Classes/ELCImagePicker/ELCAssetSelectionDelegate.h; sourceTree = "<group>"; };
+		5EB5D4E57439CD0A70E77B6B /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELCAssetTablePicker.m; path = Classes/ELCImagePicker/ELCAssetTablePicker.m; sourceTree = "<group>"; };
+		6708834A6630162DA4125DE1 /* Pods-MyLunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLunch.release.xcconfig"; sourceTree = "<group>"; };
+		68EEE831297C7A4E37175964 /* ELCAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELCAsset.m; path = Classes/ELCImagePicker/ELCAsset.m; sourceTree = "<group>"; };
+		692D7AB8B54130FCA07CB68D /* Pods-MyLunch-ELCImagePickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLunch-ELCImagePickerController.xcconfig"; sourceTree = "<group>"; };
+		6A517C74E1528CAD21DB6DCB /* ELCImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCImagePickerController.h; path = Classes/ELCImagePicker/ELCImagePickerController.h; sourceTree = "<group>"; };
+		6B5D6A3B7AABA93D19AF0D30 /* Overlay@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Overlay@2x.png"; path = "Classes/ELCImagePicker/Resources/Overlay@2x.png"; sourceTree = "<group>"; };
+		6B98BBBD2166692FD919643B /* ELCImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELCImagePickerController.m; path = Classes/ELCImagePicker/ELCImagePickerController.m; sourceTree = "<group>"; };
+		6E6BBBD1BFFA6A9D004B17A5 /* ELCAssetPickerFilterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCAssetPickerFilterDelegate.h; path = Classes/ELCImagePicker/ELCAssetPickerFilterDelegate.h; sourceTree = "<group>"; };
+		7B775C93082E02BCB8393005 /* ELCAlbumPickerController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ELCAlbumPickerController.xib; path = Classes/ELCImagePicker/Resources/ELCAlbumPickerController.xib; sourceTree = "<group>"; };
+		83A73A94CCA3F165587754E9 /* SZTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SZTextView.m; path = Classes/SZTextView.m; sourceTree = "<group>"; };
+		8C7E950171A230D46866C13D /* Pods-MyLunch-SZTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyLunch-SZTextView-prefix.pch"; sourceTree = "<group>"; };
+		93E85B2DF382B25E9203D534 /* Pods-MyLunch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyLunch-resources.sh"; sourceTree = "<group>"; };
+		96218722833790712B5524FD /* Pods-MyLunch-ELCImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyLunch-ELCImagePickerController-dummy.m"; sourceTree = "<group>"; };
+		A352291DC11A4FB79C95A41F /* Pods-MyLunch-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyLunch-environment.h"; sourceTree = "<group>"; };
+		A3ACC1D46AA0015B6C87D48E /* ELCAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCAsset.h; path = Classes/ELCImagePicker/ELCAsset.h; sourceTree = "<group>"; };
+		B19F70834D6A685B202156AE /* Pods-MyLunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLunch.debug.xcconfig"; sourceTree = "<group>"; };
+		B5F0F716948187A658573FEA /* ELCAssetPicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ELCAssetPicker.xib; path = Classes/ELCImagePicker/Resources/ELCAssetPicker.xib; sourceTree = "<group>"; };
+		B63BDC215CABAF3A4C99A1DB /* Pods-MyLunch-SZTextView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLunch-SZTextView-Private.xcconfig"; sourceTree = "<group>"; };
+		C4D70FADB97BCC26AB884C45 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
+		CAC14E9E10584D2DDAEC2A95 /* Pods-MyLunch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyLunch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0C6BFB3C853CB2456859A40 /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELCAlbumPickerController.m; path = Classes/ELCImagePicker/ELCAlbumPickerController.m; sourceTree = "<group>"; };
+		DCFF29A93BE94831AF74F97B /* SZTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SZTextView.h; path = Classes/SZTextView.h; sourceTree = "<group>"; };
+		DF5C531A93234716F95BF145 /* Pods-MyLunch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyLunch-acknowledgements.plist"; sourceTree = "<group>"; };
+		E00EEA68D2C61800BAEE66F8 /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCAlbumPickerController.h; path = Classes/ELCImagePicker/ELCAlbumPickerController.h; sourceTree = "<group>"; };
+		EFF5FD1D9F4E13319A17F6B0 /* libPods-MyLunch-SZTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyLunch-SZTextView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57DEB59CCDE3F98A340C5EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F93A84EEC2A04E3080E4E87F /* libPods-MyLunch-ELCImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyLunch-ELCImagePickerController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29A6D5FC0DD584CA85F9660D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E98124BE155EC699E1E93F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626BE3FB6341D9C517AAD7F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1FAF016CE341F99324FC85 /* AssetsLibrary.framework in Frameworks */,
+				8133842BA7F4A638BC68AD57 /* CoreLocation.framework in Frameworks */,
+				643A082B678401B249B8C27F /* Foundation.framework in Frameworks */,
+				5480FF67AF13C802C10F00C0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CB99947E484800046A202B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E08CDE79FBBDFE1A3322ADC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09500AEA35718AD5A67FD323 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EB9318756FA3BE11511012B /* Pods-MyLunch-SZTextView.xcconfig */,
+				B63BDC215CABAF3A4C99A1DB /* Pods-MyLunch-SZTextView-Private.xcconfig */,
+				5AA62F21CC10940AAE38C4DD /* Pods-MyLunch-SZTextView-dummy.m */,
+				8C7E950171A230D46866C13D /* Pods-MyLunch-SZTextView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MyLunch-SZTextView";
+			sourceTree = "<group>";
+		};
+		0BC3448F263F002A24D4306E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				473010B335FD587C985A2805 /* AssetsLibrary.framework */,
+				091DF1EF6A318959F7E77260 /* CoreLocation.framework */,
+				F57DEB59CCDE3F98A340C5EA /* Foundation.framework */,
+				19973A6632B553D7C83D0FF2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1E8D0824EDA42AE8369F6E8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				692D7AB8B54130FCA07CB68D /* Pods-MyLunch-ELCImagePickerController.xcconfig */,
+				19B8FD98268F312958472F8A /* Pods-MyLunch-ELCImagePickerController-Private.xcconfig */,
+				96218722833790712B5524FD /* Pods-MyLunch-ELCImagePickerController-dummy.m */,
+				16D7EDFAD452F09CB4FB932E /* Pods-MyLunch-ELCImagePickerController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MyLunch-ELCImagePickerController";
+			sourceTree = "<group>";
+		};
+		343BCAA2C3F1EA0743AC9CEC /* SZTextView */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF29A93BE94831AF74F97B /* SZTextView.h */,
+				83A73A94CCA3F165587754E9 /* SZTextView.m */,
+				09500AEA35718AD5A67FD323 /* Support Files */,
+			);
+			path = SZTextView;
+			sourceTree = "<group>";
+		};
+		4F9DC57E495A88E080CA3CE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BC3448F263F002A24D4306E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84EF0D6B6D256CC2B7DD64D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B775C93082E02BCB8393005 /* ELCAlbumPickerController.xib */,
+				B5F0F716948187A658573FEA /* ELCAssetPicker.xib */,
+				405815C602958D548284AA63 /* ELCAssetTablePicker.xib */,
+				3E687688792D3527669305BF /* Overlay.png */,
+				6B5D6A3B7AABA93D19AF0D30 /* Overlay@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		86A1D2B2D75D54C0FD3C90B8 /* Pods-MyLunch */ = {
+			isa = PBXGroup;
+			children = (
+				CAC14E9E10584D2DDAEC2A95 /* Pods-MyLunch-acknowledgements.markdown */,
+				DF5C531A93234716F95BF145 /* Pods-MyLunch-acknowledgements.plist */,
+				19EB078CFCBC65C8C2D8158A /* Pods-MyLunch-dummy.m */,
+				A352291DC11A4FB79C95A41F /* Pods-MyLunch-environment.h */,
+				93E85B2DF382B25E9203D534 /* Pods-MyLunch-resources.sh */,
+				B19F70834D6A685B202156AE /* Pods-MyLunch.debug.xcconfig */,
+				6708834A6630162DA4125DE1 /* Pods-MyLunch.release.xcconfig */,
+			);
+			name = "Pods-MyLunch";
+			path = "Target Support Files/Pods-MyLunch";
+			sourceTree = "<group>";
+		};
+		9E5C7D6CC190C00C8368C76E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2046942C58743EE4D744D8B /* ELCImagePickerController */,
+				343BCAA2C3F1EA0743AC9CEC /* SZTextView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2046942C58743EE4D744D8B /* ELCImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				E00EEA68D2C61800BAEE66F8 /* ELCAlbumPickerController.h */,
+				D0C6BFB3C853CB2456859A40 /* ELCAlbumPickerController.m */,
+				A3ACC1D46AA0015B6C87D48E /* ELCAsset.h */,
+				68EEE831297C7A4E37175964 /* ELCAsset.m */,
+				3C14DAE3C39BFEF28EEA83ED /* ELCAssetCell.h */,
+				0373DEC5596B5D2C112193B0 /* ELCAssetCell.m */,
+				6E6BBBD1BFFA6A9D004B17A5 /* ELCAssetPickerFilterDelegate.h */,
+				5AD6FA396266A06590BCA682 /* ELCAssetSelectionDelegate.h */,
+				02E0A75BADF0B8A1A3334E03 /* ELCAssetTablePicker.h */,
+				5EB5D4E57439CD0A70E77B6B /* ELCAssetTablePicker.m */,
+				6A517C74E1528CAD21DB6DCB /* ELCImagePickerController.h */,
+				6B98BBBD2166692FD919643B /* ELCImagePickerController.m */,
+				84EF0D6B6D256CC2B7DD64D1 /* Resources */,
+				1E8D0824EDA42AE8369F6E8D /* Support Files */,
+			);
+			path = ELCImagePickerController;
+			sourceTree = "<group>";
+		};
+		B51F7518B177F3E31D494D51 = {
+			isa = PBXGroup;
+			children = (
+				C4D70FADB97BCC26AB884C45 /* Podfile */,
+				4F9DC57E495A88E080CA3CE6 /* Frameworks */,
+				9E5C7D6CC190C00C8368C76E /* Pods */,
+				E213BCC0EFAD11BF5EFB1C6C /* Products */,
+				B8B4159E146EB031C9279512 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B8B4159E146EB031C9279512 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86A1D2B2D75D54C0FD3C90B8 /* Pods-MyLunch */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E213BCC0EFAD11BF5EFB1C6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E64CC84099CA41EE32E9B86 /* libPods-MyLunch.a */,
+				F93A84EEC2A04E3080E4E87F /* libPods-MyLunch-ELCImagePickerController.a */,
+				EFF5FD1D9F4E13319A17F6B0 /* libPods-MyLunch-SZTextView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F999684A1A134F61DFA1ABB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C218455274C050F382AC39 /* SZTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE2C9872ACD3A097C204D1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0327C62D8B1B5339A23B75AE /* ELCAlbumPickerController.h in Headers */,
+				721A625E4607BC02CA726AE3 /* ELCAsset.h in Headers */,
+				699EBA6C8C6FB0E5F6FD50E7 /* ELCAssetCell.h in Headers */,
+				601C9679C33D342AABCD0D3A /* ELCAssetPickerFilterDelegate.h in Headers */,
+				3DDC64E837812544D30C9EEA /* ELCAssetSelectionDelegate.h in Headers */,
+				BF65CD035FC7EE529B5025E8 /* ELCAssetTablePicker.h in Headers */,
+				EC2033932F0C434AE81C40A1 /* ELCImagePickerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3295A195A78F216E5364B101 /* Pods-MyLunch-SZTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA97C3085CB2F319EF08073 /* Build configuration list for PBXNativeTarget "Pods-MyLunch-SZTextView" */;
+			buildPhases = (
+				875E8C2AE16CC474E59AE25F /* Sources */,
+				B8CB99947E484800046A202B /* Frameworks */,
+				F999684A1A134F61DFA1ABB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MyLunch-SZTextView";
+			productName = "Pods-MyLunch-SZTextView";
+			productReference = EFF5FD1D9F4E13319A17F6B0 /* libPods-MyLunch-SZTextView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3C405344B3F1BAF366A3C069 /* Pods-MyLunch-ELCImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496F6FA4C3DF4738766D9C6B /* Build configuration list for PBXNativeTarget "Pods-MyLunch-ELCImagePickerController" */;
+			buildPhases = (
+				1FC25C0B1A2E60FDA81799B6 /* Sources */,
+				626BE3FB6341D9C517AAD7F5 /* Frameworks */,
+				FEE2C9872ACD3A097C204D1C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MyLunch-ELCImagePickerController";
+			productName = "Pods-MyLunch-ELCImagePickerController";
+			productReference = F93A84EEC2A04E3080E4E87F /* libPods-MyLunch-ELCImagePickerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A54461B91B3D4DCAD9B35465 /* Pods-MyLunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABF4A21A4556FBBF87A5FF8 /* Build configuration list for PBXNativeTarget "Pods-MyLunch" */;
+			buildPhases = (
+				CE1D6AA24E14279CD8001B5C /* Sources */,
+				29A6D5FC0DD584CA85F9660D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3678F65EB2C9ED9A12C4A1B7 /* PBXTargetDependency */,
+				B6F169040F210C8A15E55CDC /* PBXTargetDependency */,
+			);
+			name = "Pods-MyLunch";
+			productName = "Pods-MyLunch";
+			productReference = 4E64CC84099CA41EE32E9B86 /* libPods-MyLunch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E4A83EE5F206E42EE19B9EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 48CCD47F1E9D3C53CCAAC17A /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B51F7518B177F3E31D494D51;
+			productRefGroup = E213BCC0EFAD11BF5EFB1C6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54461B91B3D4DCAD9B35465 /* Pods-MyLunch */,
+				3C405344B3F1BAF366A3C069 /* Pods-MyLunch-ELCImagePickerController */,
+				3295A195A78F216E5364B101 /* Pods-MyLunch-SZTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FC25C0B1A2E60FDA81799B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD189F2990B690328A58582D /* ELCAlbumPickerController.m in Sources */,
+				736D5538C46CA00FFF939999 /* ELCAsset.m in Sources */,
+				34B63693F8250DE6176AD04B /* ELCAssetCell.m in Sources */,
+				E810653433C99C16132B9B57 /* ELCAssetTablePicker.m in Sources */,
+				84DD3A19AE42B2D62A6849E5 /* ELCImagePickerController.m in Sources */,
+				25436BBB35FBAD1124494267 /* Pods-MyLunch-ELCImagePickerController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875E8C2AE16CC474E59AE25F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00AC1C178350A0B14F8F673 /* Pods-MyLunch-SZTextView-dummy.m in Sources */,
+				04A34085D0908A5304FF2A64 /* SZTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1D6AA24E14279CD8001B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3083DFC4A1AFACAB41705C /* Pods-MyLunch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3678F65EB2C9ED9A12C4A1B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyLunch-ELCImagePickerController";
+			target = 3C405344B3F1BAF366A3C069 /* Pods-MyLunch-ELCImagePickerController */;
+			targetProxy = 9ACE3A817928BFC1260C135D /* PBXContainerItemProxy */;
+		};
+		B6F169040F210C8A15E55CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyLunch-SZTextView";
+			target = 3295A195A78F216E5364B101 /* Pods-MyLunch-SZTextView */;
+			targetProxy = 62BF18F0CF5884E2054027A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		187E4997E9CDD3E6BACD72F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63BDC215CABAF3A4C99A1DB /* Pods-MyLunch-SZTextView-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MyLunch-SZTextView/Pods-MyLunch-SZTextView-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		345EC8A119CB2F7047934BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B19F70834D6A685B202156AE /* Pods-MyLunch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		35B89F5E8CBB7AE7AE797B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B8FD98268F312958472F8A /* Pods-MyLunch-ELCImagePickerController-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MyLunch-ELCImagePickerController/Pods-MyLunch-ELCImagePickerController-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		767A5CF08FBFDF03016282B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		76B3E291348D3481DD699FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4441B49F00017DC94266705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B8FD98268F312958472F8A /* Pods-MyLunch-ELCImagePickerController-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MyLunch-ELCImagePickerController/Pods-MyLunch-ELCImagePickerController-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D7E59E5E0940A052E191C68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6708834A6630162DA4125DE1 /* Pods-MyLunch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB6AA3125468704B12C2A702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63BDC215CABAF3A4C99A1DB /* Pods-MyLunch-SZTextView-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MyLunch-SZTextView/Pods-MyLunch-SZTextView-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48CCD47F1E9D3C53CCAAC17A /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767A5CF08FBFDF03016282B5 /* Debug */,
+				76B3E291348D3481DD699FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496F6FA4C3DF4738766D9C6B /* Build configuration list for PBXNativeTarget "Pods-MyLunch-ELCImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4441B49F00017DC94266705 /* Debug */,
+				35B89F5E8CBB7AE7AE797B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA97C3085CB2F319EF08073 /* Build configuration list for PBXNativeTarget "Pods-MyLunch-SZTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E4997E9CDD3E6BACD72F9 /* Debug */,
+				EB6AA3125468704B12C2A702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABF4A21A4556FBBF87A5FF8 /* Build configuration list for PBXNativeTarget "Pods-MyLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345EC8A119CB2F7047934BC0 /* Debug */,
+				D7E59E5E0940A052E191C68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E4A83EE5F206E42EE19B9EE /* Project object */;
+}

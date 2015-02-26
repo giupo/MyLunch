@@ -18,7 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"Hello!");
-    //self.navigationController.navigationItem.title = @"Create Post";
+    self.lunchDescription.placeholder = @"Add more infos here...";
+    self.lunchDescription.placeholderTextColor = [UIColor lightGrayColor];
 }
 
 
