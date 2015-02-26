@@ -1,11 +1,11 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, "6.0"
+# platform :ios, '6.0'
 
-target "MyLunch" do
-pod "ELCImagePickerController"
+target 'MyLunch' do
+  pod 'ELCImagePickerController'
 end
 
-target "MyLunchTests" do
+target 'MyLunchTests' do
 
 end
 

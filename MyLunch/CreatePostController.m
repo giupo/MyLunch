@@ -7,10 +7,10 @@
 //
 
 #import "CreatePostController.h"
-#import "AddPhotosController.h"
+#import "LunchDisplayController.h"
+#import <ELCImagePickerController.h>
 
 @interface CreatePostController ()
-
 @end
 
 @implementation CreatePostController
@@ -18,42 +18,46 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"Hello!");
-    self.navigationController.navigationItem.title = @"Create Post";
+    //self.navigationController.navigationItem.title = @"Create Post";
 }
 
 
 -(IBAction) pushAddPhotosController {
-    if(!self.imgPicker) {
-        self.imgPicker = [[UIImagePickerController alloc] init];
-    }
-    self.imgPicker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
+    self.elcPicker = [[ELCImagePickerController alloc] init];
     
-    // Displays saved pictures and movies, if both are available, from the
-    // Camera Roll album.
-    self.imgPicker.mediaTypes =
-    [UIImagePickerController availableMediaTypesForSourceType:
-     UIImagePickerControllerSourceTypeSavedPhotosAlbum];
-    
-    // Hides the controls for moving & scaling pictures, or for
-    // trimming movies. To instead show the controls, use YES.
-    self.imgPicker.allowsEditing = NO;
-    
-    self.imgPicker.delegate = self;
-    [self presentViewController:self.imgPicker animated:YES completion:nil];
+    self.elcPicker.maximumImagesCount = 4; //Set the maximum number of images to select, defaults to 4
+    //self.elcPicker.returnsOriginalImage = NO; //Only return the fullScreenImage, not the fullResolutionImage
+    //self.elcPicker.returnsImage = YES; //Return UIimage if YES. If NO, only return asset location information
+    //self.elcPicker.onOrder = YES; //For multiple image selection, display and return selected order of images
+    self.elcPicker.imagePickerDelegate = self;
+    [self presentViewController:self.elcPicker animated:YES completion:nil];
 }
 
 
 #pragma mark - UIImagePickerControllerDelegate
 
 // This method is called when an image has been chosen from the library or taken from the camera.
-- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
-{
-    UIImage *image = [info valueForKey:UIImagePickerControllerOriginalImage];
-    NSLog(@"%@", image);
+- (void)elcImagePickerController:(ELCImagePickerController *)picker didFinishPickingMediaWithInfo:(NSArray *)info {
     [self dismissViewControllerAnimated:YES completion:NULL];
+    
+    NSString* displayID;
+    if(info.count == 0) {
+        displayID = @"LunchDisplay0";
+    } else if (info.count <= 2) {
+        displayID = @"LunchDisplay2";
+    } else {
+        displayID = @"LunchDisplay4";
+    }
+    
+    LunchDisplayController* display = [self.storyboard instantiateViewControllerWithIdentifier:displayID];
+    NSLog(@"%@ %@", self.lunchDescription.text, self.lunchDescription.text);
+    display.testoDescrizione = self.lunchDescription.text;
+    display.imagesInfo = info;
+    display.title = self.lunchName.text;
+    [self.navigationController pushViewController:display animated:YES];
 }
 
-- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+- (void)elcImagePickerControllerDidCancel:(ELCImagePickerController *)picker {
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 @end

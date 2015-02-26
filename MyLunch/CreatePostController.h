@@ -7,13 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ELCImagePickerController.h>
 
-@interface CreatePostController : UIViewController<UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface CreatePostController : UIViewController<ELCImagePickerControllerDelegate ,UINavigationControllerDelegate>
+
+
+@property (strong, nonatomic) NSArray* images;
 
 @property (strong, nonatomic) IBOutlet UITextField *lunchName;
 @property (strong, nonatomic) IBOutlet UITextView *lunchDescription;
-@property (strong, nonatomic) IBOutlet UIBarButtonItem *next;
-@property (strong, nonatomic) IBOutlet UIImagePickerController *imgPicker;
+@property (strong, nonatomic) ELCImagePickerController *elcPicker;
 -(IBAction) pushAddPhotosController;
 @end
 
