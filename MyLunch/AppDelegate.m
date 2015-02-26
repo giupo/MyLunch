@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CreatePostController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    /*self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    CreatePostController* createPostController  = [[CreatePostController alloc] init];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:createPostController];
+    self.window.rootViewController = self.navController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    return YES;*/
     return YES;
 }
 

@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		30CF7CD51A9F31BA00F8D5BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF7CD41A9F31BA00F8D5BA /* main.m */; };
 		30CF7CD81A9F31BA00F8D5BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF7CD71A9F31BA00F8D5BA /* AppDelegate.m */; };
-		30CF7CDB1A9F31BA00F8D5BA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF7CDA1A9F31BA00F8D5BA /* FirstViewController.m */; };
-		30CF7CDE1A9F31BA00F8D5BA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF7CDD1A9F31BA00F8D5BA /* SecondViewController.m */; };
-		30CF7CE11A9F31BA00F8D5BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CF7CDF1A9F31BA00F8D5BA /* Main.storyboard */; };
+		30CF7CDB1A9F31BA00F8D5BA /* CreatePostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF7CDA1A9F31BA00F8D5BA /* CreatePostController.m */; };
+		30CF7CDE1A9F31BA00F8D5BA /* AddPhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF7CDD1A9F31BA00F8D5BA /* AddPhotosController.m */; };
 		30CF7CE31A9F31BA00F8D5BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CF7CE21A9F31BA00F8D5BA /* Images.xcassets */; };
 		30CF7CE61A9F31BA00F8D5BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30CF7CE41A9F31BA00F8D5BA /* LaunchScreen.xib */; };
 		30CF7CF21A9F31BB00F8D5BA /* MyLunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF7CF11A9F31BB00F8D5BA /* MyLunchTests.m */; };
+		30CF7D001A9F508600F8D5BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CF7CFF1A9F508600F8D5BA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +33,16 @@
 		30CF7CD41A9F31BA00F8D5BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30CF7CD61A9F31BA00F8D5BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30CF7CD71A9F31BA00F8D5BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		30CF7CD91A9F31BA00F8D5BA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		30CF7CDA1A9F31BA00F8D5BA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		30CF7CDC1A9F31BA00F8D5BA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		30CF7CDD1A9F31BA00F8D5BA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		30CF7CE01A9F31BA00F8D5BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30CF7CD91A9F31BA00F8D5BA /* CreatePostController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreatePostController.h; sourceTree = "<group>"; };
+		30CF7CDA1A9F31BA00F8D5BA /* CreatePostController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatePostController.m; sourceTree = "<group>"; };
+		30CF7CDC1A9F31BA00F8D5BA /* AddPhotosController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddPhotosController.h; sourceTree = "<group>"; };
+		30CF7CDD1A9F31BA00F8D5BA /* AddPhotosController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPhotosController.m; sourceTree = "<group>"; };
 		30CF7CE21A9F31BA00F8D5BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		30CF7CE51A9F31BA00F8D5BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		30CF7CEB1A9F31BB00F8D5BA /* MyLunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CF7CF01A9F31BB00F8D5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30CF7CF11A9F31BB00F8D5BA /* MyLunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLunchTests.m; sourceTree = "<group>"; };
+		30CF7CFF1A9F508600F8D5BA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,14 +86,14 @@
 			children = (
 				30CF7CD61A9F31BA00F8D5BA /* AppDelegate.h */,
 				30CF7CD71A9F31BA00F8D5BA /* AppDelegate.m */,
-				30CF7CD91A9F31BA00F8D5BA /* FirstViewController.h */,
-				30CF7CDA1A9F31BA00F8D5BA /* FirstViewController.m */,
-				30CF7CDC1A9F31BA00F8D5BA /* SecondViewController.h */,
-				30CF7CDD1A9F31BA00F8D5BA /* SecondViewController.m */,
-				30CF7CDF1A9F31BA00F8D5BA /* Main.storyboard */,
+				30CF7CD91A9F31BA00F8D5BA /* CreatePostController.h */,
+				30CF7CDA1A9F31BA00F8D5BA /* CreatePostController.m */,
+				30CF7CDC1A9F31BA00F8D5BA /* AddPhotosController.h */,
+				30CF7CDD1A9F31BA00F8D5BA /* AddPhotosController.m */,
 				30CF7CE21A9F31BA00F8D5BA /* Images.xcassets */,
 				30CF7CE41A9F31BA00F8D5BA /* LaunchScreen.xib */,
 				30CF7CD21A9F31BA00F8D5BA /* Supporting Files */,
+				30CF7CFF1A9F508600F8D5BA /* Main.storyboard */,
 			);
 			path = MyLunch;
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30CF7CE11A9F31BA00F8D5BA /* Main.storyboard in Resources */,
+				30CF7D001A9F508600F8D5BA /* Main.storyboard in Resources */,
 				30CF7CE61A9F31BA00F8D5BA /* LaunchScreen.xib in Resources */,
 				30CF7CE31A9F31BA00F8D5BA /* Images.xcassets in Resources */,
 			);
@@ -224,9 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30CF7CDE1A9F31BA00F8D5BA /* SecondViewController.m in Sources */,
+				30CF7CDE1A9F31BA00F8D5BA /* AddPhotosController.m in Sources */,
 				30CF7CD81A9F31BA00F8D5BA /* AppDelegate.m in Sources */,
-				30CF7CDB1A9F31BA00F8D5BA /* FirstViewController.m in Sources */,
+				30CF7CDB1A9F31BA00F8D5BA /* CreatePostController.m in Sources */,
 				30CF7CD51A9F31BA00F8D5BA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,14 +250,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		30CF7CDF1A9F31BA00F8D5BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30CF7CE01A9F31BA00F8D5BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		30CF7CE41A9F31BA00F8D5BA /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

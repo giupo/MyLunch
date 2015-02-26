@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  SecondViewController.h
 //  MyLunch
 //
 //  Created by Giuseppe Acito on 26/02/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface AddPhotosController : UIViewController
 
 
 @end
